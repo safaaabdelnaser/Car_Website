@@ -1,0 +1,281 @@
+body
+{
+   margin: 0;
+    padding: 0;
+}
+.carousel-item img{
+    width: 100%;
+    
+    height:auto;
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*for defirence font*/
+@font-face
+{
+  font-family:'Satisfy-Regular';
+  src:url(../fonts/Satisfy-Regular.ttf);
+}
+/*Start Navbar*/
+.navbar-default
+{
+    background-color: B56A65;
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    font-family: cursive,'unica one';
+    z-index: 1;
+   
+    
+}
+.navbar-default span
+{
+    color: black;
+}
+.navbar-default a
+{
+    color: 202F56;
+}
+.navbar-expand-lg  .navbar-nav .nav-link
+{
+    padding-right: 29px; 
+}
+.navbar-nav
+{
+    margin-left:  33%;
+    
+}
+
+.navbar-nav  li  
+{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+    
+}
+.nav-item a
+{
+    color: 202F56;
+}
+/*End Navbar*/
+
+/*slider*/
+#mycarousel img
+{
+    height: 655px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+/*end slider*/
+
+/*End About*/
+.fullpage
+{
+   
+    width: 100%;
+    height: auto;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+   
+}
+.fullpage .overlay
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(30deg,#870000, #190a05);
+    opacity: .23;
+    position: absolute;
+}
+
+.fullpage img{
+    width: 100%;
+    margin-top: 34%;
+    border-radius: 25%;
+    margin-bottom: 50px;
+}
+.fullpage .home{
+    margin-top: 40%;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.fullpage .home span{
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: white;
+    margin-left: 45%;
+    
+}
+.fullpage .home p{
+    margin-top: 15px;
+    color: #f4f1ed;
+    font-size: 20px;
+    
+    text-align: justify;
+   
+}
+.fullpage button
+{
+    margin-bottom: 20px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.fullpage button i
+{
+    margin-left: 20px;
+}
+/*End About*/
+
+/*Departments*/
+#department
+{
+    
+    background-color: D4A8A5;
+}
+
+#department .title
+{
+    text-align: center;
+}
+#department .title p
+{
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    font-family: cursive,'unica one';
+    
+    
+}
+#department .onedepartment
+{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+    margin: 45px;
+    position: relative;
+    background-color: 969DAC;
+    padding: 25px;
+}
+.btn:not(:disabled):not(.disabled) {
+    position: absolute;
+    cursor: pointer;
+    margin-left: -55px;
+   bottom:0;
+
+}
+.onedepartment  p
+{
+    color: white;
+    font-family:serif;
+    font-size: 20px;
+    
+    
+}
+/*end departments*/
+
+/*Start branches*/
+#branches
+{
+    background-color: BECBD2;
+    
+}
+
+#branches .title
+{
+    text-align: center;
+}
+#branches .title p
+{
+    margin-top: 30px;
+    font-size: 25px;
+    color: 902018;
+    font-family: cursive,'unica one';
+    
+    
+}
+#branches .box
+{
+    width: 300px;
+    height: 300px;
+    padding-left: 15px;
+    overflow: hidden;
+    margin-top: 70px;
+    position: relative;
+}
+#branches .box img 
+{
+    width: 100%;
+    height: 100%;
+    margin-left:10px; 
+}
+#branches .box .info
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 245, 220,0.51);
+    position: absolute;
+    top:220px;
+    transition: .8s;
+    margin-left: 10px;
+}
+#branches .box:hover .info
+{
+    top:0;
+}
+#branches .box .info h3 
+{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+#branches .box .info ul 
+{
+    list-style: none;
+}
+#branches .box .info ul li 
+{
+    float: left;
+    padding-left: 14px;
+    margin-left: 21px;
+    font-size: 25px;
+    color: #892e40;
+    cursor: pointer;
+    text-align: center;
+}
+h2
+{
+    color: 202F56;
+    text-transform: capitalize;
+    font-family: 'Satisfy-Regular';
+}
+/*End branches*/
+
+/*go_top_page*/
+.go_top_page
+{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    display: none;
+    display: none;
+}
